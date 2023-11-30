@@ -35,7 +35,7 @@ yc iam key create --service-account-id {sa-id} --folder-id {folder-id} --output 
 
 5. Определить переменные среды в terraform.tfvars  
 cloud_id - your cloud id  
-folder_id - {folder-id}
+folder_id - {folder-id}  
 sa_id - {sa-id}  
 tg_key - telegram bot access token  
 
