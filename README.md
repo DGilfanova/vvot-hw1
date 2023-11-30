@@ -1,5 +1,9 @@
 # Задание 1. Обработка фотографий с лицами людей
 
+## Видеодоказательство работоспособности
+
+[Youtube](https://youtu.be/hWlwETKL0R8)
+
 ## Инструкция по запуску
 
 1. Клонировать репозиторий и перейти в нужную директорию
@@ -34,10 +38,12 @@ yc iam key create --service-account-id {sa-id} --folder-id {folder-id} --output 
 ```
 
 5. Определить переменные среды в terraform.tfvars  
+```bash
 cloud_id - your cloud id  
 folder_id - {folder-id}  
 sa_id - {sa-id}  
-tg_key - telegram bot access token  
+tg_key - telegram bot access token 
+``` 
 
 Необязательно: можно также переопредилить названия всех функций, триггеров и т.д. Описаны в variables.tf
 
